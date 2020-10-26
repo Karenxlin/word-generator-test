@@ -1,0 +1,26 @@
+{
+    "name": "kxl/word-generator-test",
+    "type": "project",
+    "description": "Testing kxl/word-generator",
+    "keywords": [
+        "phpword"
+    ],
+    "minimum-stability": "dev",
+    "homepage": "https://github.com/word-generator-test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karen",
+            "email": "test@gmail.com",
+            "homepage": "https://github.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "test@gmail.com"
+    },
+    "require": {
+        "php": ">=5.6",
+        "kxl/word-generator": "9999999-dev"
+    }
+}
