@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '666e7ed48a1de5bb7b54ee8cbc0b4c68224ac0bd',
+    'reference' => '73492807a8608473b541754f935d11b543c06762',
     'name' => 'kxl/word-generator-test',
   ),
   'versions' => 
@@ -32,7 +32,7 @@ private static $installed = array (
       array (
         0 => '9999999-dev',
       ),
-      'reference' => 'e364ff98b6aa1bc7e5a891d5bfe1dd65fc4c8a0c',
+      'reference' => '3cc896d03ce3a9008515dedee5441f1106423322',
     ),
     'kxl/word-generator-test' => 
     array (
@@ -41,7 +41,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '666e7ed48a1de5bb7b54ee8cbc0b4c68224ac0bd',
+      'reference' => '73492807a8608473b541754f935d11b543c06762',
     ),
     'pclzip/pclzip' => 
     array (

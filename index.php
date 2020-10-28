@@ -56,12 +56,13 @@
 </html>
 
 <?php
+require_once 'vendor/autoload.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($_POST["text"])) {
-
-        $argv = ['text' => $_POST["text"]];
-        include('vendor/kxl/word-generator/index.php');
+        $document = new kxl\WordGenerator\WordGenerator;
+        $document->addText($_POST["text"]);
+        $document->export();
     }
 }
 ?>

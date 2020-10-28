@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit77543c120d8a8a235bd0a9bab5552c6b
 {
     public static $prefixLengthsPsr4 = array (
+        'k' => 
+        array (
+            'kxl\\WordGenerator\\' => 18,
+        ),
         'Z' => 
         array (
             'Zend\\Escaper\\' => 13,
@@ -19,6 +23,10 @@ class ComposerStaticInit77543c120d8a8a235bd0a9bab5552c6b
     );
 
     public static $prefixDirsPsr4 = array (
+        'kxl\\WordGenerator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kxl/word-generator/src/WordGenerator',
+        ),
         'Zend\\Escaper\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-escaper/src',
